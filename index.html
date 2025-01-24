@@ -1,0 +1,201 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio | Desarrollador Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+</head>
+<body>
+  <button class="theme-toggle" aria-label="Toggle theme">
+    <i class="fas fa-moon"></i>
+  </button>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="index.php">MiPortafolio</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mi</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hola, soy <span class="highlight">Daniel</span></h1>
+      <p class="title"><b>Desarrollador JR</b></p>
+      <p class="description">Aprendiendo y mejorando en el desarrollo backend, creando soluciones eficientes y escalables</p>
+      <div class="cta-buttons">
+        <a href="#projects" class="primary-btn">Ver Proyectos</a>
+        <a href="#contact" class="secondary-btn">Contactar</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="blob">
+        <path fill="#4A90E2" d="M45.7,-57.2C59.1,-47.3,70.2,-33.5,74.5,-17.2C78.8,-0.9,
+        76.3,17.9,67.6,32.5C58.9,47.1,44,57.5,27.5,63.9C11,70.3,-7.1,72.7,-22.9,67.4C-38.7,
+        62.1,-52.1,49,-61.3,33.3C-70.5,17.6,-75.5,-0.8,-71.1,-16.7C-66.7,-32.6,-52.9,-46,-38.5,
+        -55.8C-24.1,-65.6,-9.1,-71.8,3.9,-76.5C16.9,-81.2,32.3,-67.1,45.7,-57.2Z" transform="translate(100 100)" />
+      </svg>
+      <img src="perfil.png" alt="Mi Foto de Perfil" class="profile-img">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Sobre Mí</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Soy un desarrollador web apasionado por crear soluciones digitales innovadoras. Con experiencia en tecnologías front-end y back-end, me especializo en construir aplicaciones web robustas y escalables.</p>
+        <p>Mi objetivo es combinar diseño y funcionalidad para crear experiencias de usuario excepcionales.</p>
+      </div>
+      <div class="stats">
+        <div class="stat-item">
+          <span class="number">1+</span>
+          <span class="label">Años de Experiencia</span>
+        </div>
+        <div class="stat-item">
+          <span class="number">3+</span>
+          <span class="label">Proyectos Completados</span>
+        </div>
+        <div class="stat-item">
+          <span class="number">3+</span>
+          <span class="label">Clientes Satisfechos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <div class="skill-items">
+          <div class="skill-item">
+            <i class="fab fa-html5"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-css3-alt"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-js"></i>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Backend</h3>
+        <div class="skill-items">
+          <div class="skill-item">
+            <i class="fab fa-php"></i>
+            <span>PHP</span>
+          </div>
+          <div class="skill-item">
+            <i class="fa-brands fa-java"></i>
+            <span>JAVA</span>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-code"></i>
+            <span>C++</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-laravel"></i>
+            <span>LARAVEL</span>
+          </div>
+          <div class="skill-item">
+          <i class="fa-solid fa-database"></i>
+            <span>MYSQL</span>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-database"></i>
+            <span>SQL-SERVER</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Proyectos Destacados</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-image">
+          <svg viewBox="0 0 100 100" class="project-icon">
+            <rect x="20" y="20" width="60" height="60" fill="#4A90E2" />
+            <circle cx="50" cy="50" r="20" fill="#2C3E50" />
+          </svg>
+        </div>
+        <h3>CHEROS RULETA</h3>
+        <p>Un juego de casino que se trata de 5 intentos para girar una ruleta la cual solo tienes 5 intentos por particpante.</p>
+        <div class="project-tags">
+          <span><i class="fab fa-html5"></i> HTML</span>
+          <span><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span><i class="fab fa-js"></i> JavaScript.js</span>
+          <span><i class="fab fa-php"></i> PHP</span>
+          <span><i class="fa-solid fa-database"></i> Mysql</span>
+        </div>
+        <a href="https://github.com" class="project-link">Ver Proyecto</a>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-image">
+          <svg viewBox="0 0 100 100" class="project-icon">
+            <circle cx="50" cy="50" r="40" fill="#4A90E2" />
+            <path d="M30 50 L70 50 M50 30 L50 70" stroke="#2C3E50" stroke-width="8" />
+          </svg>
+        </div>
+        <h3>ETHERNA MEMORIA</h3>
+        <p>Un sistema que gestiona el inevntario, las ventas, pagos  y que genera reporte de los clientes que tienen un plan funerario.</p>
+        <div class="project-tags">
+        <span><i class="fab fa-html5"></i> HTML</span>
+          <span><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span><i class="fab fa-js"></i> JavaScript.js</span>
+          <span><i class="fa-brands fa-java"></i> JAVA</span>
+          <span><i class="fa-solid fa-database"></i> SQL-SERVER</span>
+        </div>
+        <a href="https://github.com" class="project-link">Ver Proyecto</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>¡Hablemos sobre tu proyecto!</h3>
+        <p>Estoy disponible para freelance y oportunidades de tiempo completo.</p>
+        <div class="contact-links">
+          <a href="mailto:contact@example.com"><i class="fas fa-envelope"></i> danielr.202010@gmail.com</a>
+          <a href="https://github.com/DanielRP10"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2023 DARP. Todos los derechos reservados.</p>
+      <div class="social-links">
+        <a href="https://github.com"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
